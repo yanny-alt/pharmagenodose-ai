@@ -1,0 +1,10 @@
+Algorithm,R²,MAE (mg/week),RMSE (mg/week),Clinical Accuracy (±20%),Clinical Accuracy (±30%),Pearson r
+XGBoost,0.456,8.1,11.0,45.7%,65.5%,0.676
+LightGBM,0.462,8.1,10.9,46.6%,65.2%,0.680
+RandomForest,0.454,8.2,11.0,46.7%,62.5%,0.674
+GradientBoost,0.462,8.1,10.9,47.4%,65.8%,0.680
+ElasticNet,0.443,8.3,11.1,46.4%,63.4%,0.666
+Ridge,0.461,8.2,10.9,46.9%,63.4%,0.680
+SVR,0.455,8.1,11.0,46.5%,65.0%,0.681
+MLP,0.467,8.0,10.9,47.3%,65.2%,0.686
+PharmaGenoDose Ensemble,0.476,8.0,10.8,47.9%,66.2%,0.692
